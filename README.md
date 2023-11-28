@@ -8,4 +8,4 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 
-###### This projects will create React components namely: Header, Footer and Gallery components.
+#### This projects will create React components namely: Header, Footer and Gallery components.
