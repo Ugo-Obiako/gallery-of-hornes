@@ -1,7 +1,33 @@
 
 function App() {
 
-return <h1>I live</h1>
+return (<>
+       <Header title="Gallery of Horns Project" />
+
+       <Footer/>
+
+       <Gallery/>
+    
+       </>
+    )
 }
 
-export default App
+function Header(props) {
+    
+    return (<header>
+          <h1>{props.title}</h1>
+            </header>
+    )
+}
+
+function Footer(props) {
+    
+    return <h2>Footer here</h2>
+}
+
+function Gallery(props) {
+    
+    return <h2>Gallery here</h2>
+}
+
+export default App;
