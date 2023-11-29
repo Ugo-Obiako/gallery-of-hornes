@@ -1,7 +1,6 @@
+function Footer(props) {
 
-// function Footer(props) {
-    
-//     return <h2> &copy;{props.year}.  Web Design by Ugo</h2>
-// }
+    return <h2> &copy;{props.year}.  Web Design by Ugo</h2>
+}
 
-// export default Footer
+export default Footer
