@@ -18,7 +18,7 @@ function HornedBeast(props) {
     return (<>
         
 
-    <div style={{padding: '20px', margin: '30px', height: '25rem', position: 'relative', left: 'auto', right: 'auto'}} type="submit" onClick={handleClick}>
+    <div style={{padding: '20px', margin: '30px', height: '25rem'}} type="submit" onClick={handleClick}>
     <Card className='cardStyle' style={{ width: '18rem', height: '18rem', padding: '10px', position: 'relative', left: 'auto', right: 'auto'}}>
       <Card.Img style={{width:'100px', height: '100px', }}  variant="top" src={props.imageUrl} />
       <Card.Body>
