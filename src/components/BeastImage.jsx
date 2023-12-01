@@ -1,3 +1,4 @@
+import beasts from "../data.json"
 import Image from 'react-bootstrap/Image'
 import { useState } from 'react';
 import Gallery from './Gallery';
@@ -11,13 +12,13 @@ export default function BeastImage(props) {
 
   function handleClick() {
     setCount(count + 1);
-    alert("You click on the button")
+    alert("You click on the button");
   }
 
   return (
     <div>
     <button type="submit" onClick={handleClick}>{count}</button>
-      <Image src={beasts.imageUrl} alt="some horned beast" rounded fluid></Image>
+      <Image src={beasts.image_url} alt="some horned beast" rounded fluid></Image>
       <h2> You clicked the image {count} times</h2>
       </div>
 
