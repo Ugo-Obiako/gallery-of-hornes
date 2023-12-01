@@ -11,7 +11,7 @@ function App() {
     return (<>
         <Header title="Gallery of Horns Project" />
 
-        <Gallery message="HornedBeast Details" beasts = {beasts} />
+        <Gallery beasts = {beasts} />
 
 
         <Footer year="2023" />

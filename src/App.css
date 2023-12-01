@@ -40,14 +40,11 @@
 .read-the-docs {
   color: #888;
 } */
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Three columns */
-  gap: 10px; /* Gap between grid items */
+
+.cardH2{
+  text-align: center;
 }
 
-.grid-item {
-  background-color: lightblue;
-  padding: 20px;
-  text-align: center;
+.cardStyle{
+  justify-content: center;
 }
