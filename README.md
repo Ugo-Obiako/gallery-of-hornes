@@ -9,3 +9,4 @@ Currently, two official plugins are available:
 
 
 ## This projects will create React components namely: Header, Footer and Gallery components.
+
