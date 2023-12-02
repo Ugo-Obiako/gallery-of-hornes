@@ -16,7 +16,6 @@ function App() {
 
         <Footer year="2023" />
 
-
     </>
     )
 }
