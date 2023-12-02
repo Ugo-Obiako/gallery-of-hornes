@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Gallery from "./components/Gallery"
-
+import SelectedBeast from "./components/SelectedBeast"
 
 
 function App() {
@@ -13,9 +13,10 @@ function App() {
 
         <Gallery beasts = {beasts} />
 
+        <SelectedBeast />
+
 
         <Footer year="2023" />
-
 
     </>
     )

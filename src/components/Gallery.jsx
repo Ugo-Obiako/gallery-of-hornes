@@ -15,7 +15,7 @@ function Gallery(props) {
     <Container>
         <Row xs={2} sm={3} md={4} lg={5}>
         {/* <Col> */}
-        {beasts.map((beast) => <HornedBeast  title={beast.title} imageUrl={beast.image_url} description={beast.description} />)}
+        {beasts.map((beast) => <HornedBeast  title={beast.title} imageUrl={beast.image_url} description={beast.description} keyword = {beast.keyword} />)}
         {/* </Col> */}
         </Row>
     </Container>

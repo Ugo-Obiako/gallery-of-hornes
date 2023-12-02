@@ -48,3 +48,17 @@
 .cardStyle{
   justify-content: center;
 }
+
+.modalP{
+  text-align: center;
+}
+
+.searchBar{
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 2rem;
+}
+
+.divL li{
+  list-style-type: none;
+}
